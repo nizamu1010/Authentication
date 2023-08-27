@@ -1,0 +1,74 @@
+{% extends 'base.html'%}
+
+{% load static %}
+
+{% block content %}
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex justify-content-center align-items-center">
+  <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
+    <h1>Learning Today,<br>Leading Tomorrow</h1>
+    <h2>Welcome to our school website! <br> We are committed to providing high-quality education and fostering a positive learning environment for our students.</h2>
+    <a href="login/" class="btn-get-started">Please Login</a>
+  </div>
+</section><!-- End Hero -->
+
+<main id="main">
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row">
+        <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+          <img src="{% static 'img/about.jpg' %}" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+
+          <p>Welcome to My School!<br>A leading institution dedicated to providing quality education and fostering a love for learning. With a rich history spanning over several decades, we have consistently strived to create an inclusive and stimulating environment for our students.</p>
+          <p>Our state-of-the-art facilities, including well-equipped classrooms, modern laboratories, a library, and sports facilities, offer students a conducive environment to explore their potential and pursue their passions. We also emphasize the importance of extracurricular activities, encouraging students to engage in a wide range of clubs, sports teams, and cultural events.</p>
+          <p>Explore our website to learn more about our values, programs, and achievements. We invite you to join our vibrant community and embark on a transformative educational journey at My School.</p>
+        
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End About Section -->
+
+  <!-- ======= Counts Section ======= -->
+  <section id="counts" class="counts section-bg">
+    <div class="container">
+
+      <div class="row counters">
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Students</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Courses</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Events</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Trainers</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Counts Section -->
+
+</main><!-- End #main -->
+
+
+{% endblock %}
+
+ 
